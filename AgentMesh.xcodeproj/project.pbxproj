@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD8437FB245642BD3970137 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A19FF77772C42DC422DED /* APIService.swift */; };
+		32DD037C2106EA31F03E632F /* AgentMeshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9649621F979497024CEF7E /* AgentMeshViewModel.swift */; };
+		433A90A23C1D72C21110AFFE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B394DF287D1300A57AB0AD /* Models.swift */; };
+		47892D28ED1DF42F890BAE4E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94044F824F7BD126297988EF /* main.swift */; };
+		5FD9B0686E583FF53985C281 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E188F385430D59EEDCBD9 /* ComponentsView.swift */; };
+		647E5DE7BC455427968ECCE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00E2D08D0482763D1BF9EF /* ContentView.swift */; };
+		774658FFDAFC20CCB9BF7FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C671788DD921ABA7C644A58 /* Assets.xcassets */; };
+		A061DE3CD653E6E36EA0D7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F85A1A189D33016DBC2118 /* AppDelegate.swift */; };
+		C5FEBF111F6858D08B4D7F88 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223348AD6C28812A6F30629 /* WebSocketService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C671788DD921ABA7C644A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F00E2D08D0482763D1BF9EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B6F86334E80B2D7A0BF3B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		653A19FF77772C42DC422DED /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		94044F824F7BD126297988EF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		96F85A1A189D33016DBC2118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB3A18755DCE86C70100B930 /* AgentMesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgentMesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9649621F979497024CEF7E /* AgentMeshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentMeshViewModel.swift; sourceTree = "<group>"; };
+		C6B394DF287D1300A57AB0AD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D93376ED43FC640095FE8B75 /* AgentMesh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgentMesh.entitlements; sourceTree = "<group>"; };
+		E223348AD6C28812A6F30629 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
+		F68E188F385430D59EEDCBD9 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2260E9D17C6ED70ECB2A3FD6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				653A19FF77772C42DC422DED /* APIService.swift */,
+				E223348AD6C28812A6F30629 /* WebSocketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		25DBF4DB6CB53614F5E46EC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F68E188F385430D59EEDCBD9 /* ComponentsView.swift */,
+				1F00E2D08D0482763D1BF9EF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43C45F24F6B2D0BB51ED0115 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE9649621F979497024CEF7E /* AgentMeshViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D2E193E0DD9E1CDC8F289C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D93376ED43FC640095FE8B75 /* AgentMesh.entitlements */,
+				1C671788DD921ABA7C644A58 /* Assets.xcassets */,
+				2B6F86334E80B2D7A0BF3B69 /* Info.plist */,
+			);
+			name = Resources;
+			path = AgentMesh/Resources;
+			sourceTree = "<group>";
+		};
+		8C4B9655E9ED0274DCAD0C61 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				96F85A1A189D33016DBC2118 /* AppDelegate.swift */,
+				94044F824F7BD126297988EF /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8D3220DE844AAE5DC2720E3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6B394DF287D1300A57AB0AD /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DD8974FC985723448A59CB9 = {
+			isa = PBXGroup;
+			children = (
+				4D2E193E0DD9E1CDC8F289C4 /* Resources */,
+				9DDAE4DBEC21EA8F3D2013E4 /* Sources */,
+				E64D29DC20142210564061B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DDAE4DBEC21EA8F3D2013E4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8C4B9655E9ED0274DCAD0C61 /* App */,
+				8D3220DE844AAE5DC2720E3A /* Models */,
+				2260E9D17C6ED70ECB2A3FD6 /* Services */,
+				43C45F24F6B2D0BB51ED0115 /* ViewModels */,
+				25DBF4DB6CB53614F5E46EC1 /* Views */,
+			);
+			name = Sources;
+			path = AgentMesh/Sources;
+			sourceTree = "<group>";
+		};
+		E64D29DC20142210564061B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A18755DCE86C70100B930 /* AgentMesh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F430645BB0EDE2491B30CD76 /* AgentMesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020661A7232810ECCCED1173 /* Build configuration list for PBXNativeTarget "AgentMesh" */;
+			buildPhases = (
+				8D3352DF280187289976F8DF /* Sources */,
+				A57B0107BC6BF13FC45D5344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgentMesh;
+			productName = AgentMesh;
+			productReference = AB3A18755DCE86C70100B930 /* AgentMesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC18A3C85A5A7F165478D76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F430645BB0EDE2491B30CD76 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 948762FEE95FFE692703A7A1 /* Build configuration list for PBXProject "AgentMesh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8DD8974FC985723448A59CB9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F430645BB0EDE2491B30CD76 /* AgentMesh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57B0107BC6BF13FC45D5344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774658FFDAFC20CCB9BF7FE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3352DF280187289976F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD8437FB245642BD3970137 /* APIService.swift in Sources */,
+				32DD037C2106EA31F03E632F /* AgentMeshViewModel.swift in Sources */,
+				A061DE3CD653E6E36EA0D7AF /* AppDelegate.swift in Sources */,
+				5FD9B0686E583FF53985C281 /* ComponentsView.swift in Sources */,
+				647E5DE7BC455427968ECCE9 /* ContentView.swift in Sources */,
+				433A90A23C1D72C21110AFFE /* Models.swift in Sources */,
+				C5FEBF111F6858D08B4D7F88 /* WebSocketService.swift in Sources */,
+				47892D28ED1DF42F890BAE4E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16ACD41BEE8E55A4B8E6EF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = AgentMesh;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		A5AC7DBE08CE6851C1B6FCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = AgentMesh;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		C30F8E1BCE7BAFA9284D112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AgentMesh/Resources/AgentMesh.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AgentMesh/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agentmesh.app;
+			};
+			name = Release;
+		};
+		EDD6FA99C4734F218A80420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AgentMesh/Resources/AgentMesh.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AgentMesh/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agentmesh.app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020661A7232810ECCCED1173 /* Build configuration list for PBXNativeTarget "AgentMesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6FA99C4734F218A80420F /* Debug */,
+				C30F8E1BCE7BAFA9284D112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		948762FEE95FFE692703A7A1 /* Build configuration list for PBXProject "AgentMesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ACD41BEE8E55A4B8E6EF8D /* Debug */,
+				A5AC7DBE08CE6851C1B6FCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC18A3C85A5A7F165478D76D /* Project object */;
+}
